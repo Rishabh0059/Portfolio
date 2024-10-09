@@ -5,8 +5,8 @@ import javascript from '../assets/javascript.png'
 import reactImage from '../assets/react.png'
 import tailwind from '../assets/tailwind.png'
 import redux from '../assets/redux.png'
-import wordpress from '../assets/wordpress.png'
-// import jquery from '../assets/jjquery.png'
+// import wordpress from '../assets/wordpress.png'
+import jquery from '../assets/jjquery.png'
 import node from '../assets/node.png'
 import bootstrap from '../assets/Bootstrap.png'
 
@@ -55,20 +55,20 @@ const Experience = () => {
       title:'Bootstrap',
       style:'shadow-violet-500'
     },
-    // {
-    //   id:8,
-    //   src:jquery,
-    //   title:'jQuery',
-    //   size:'40px',
-    //   style:'shadow-blue-500'
-    // },
-   
     {
-      id:9,
-      src:wordpress,
-      title:'Wordpress',
-      style:'shadow-blue-400'
+      id:8,
+      src:jquery,
+      title:'jQuery',
+      size:'40px',
+      style:'shadow-blue-500'
     },
+   
+    // {
+    //   id:9,
+    //   src:wordpress,
+    //   title:'Wordpress',
+    //   style:'shadow-blue-400'
+    // },
     {
       id:10,
       src:github,

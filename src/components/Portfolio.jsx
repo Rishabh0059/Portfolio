@@ -62,11 +62,11 @@ const Portfolio = () => {
    
   ]
   return (
-    <div name="Portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-full'>
-      <div className='max-w-screen-lg p-2 md:pt-2 sm:pt-1   md:mx-auto mx-0 sm:mt-0 flex flex-col justify-center w-full h-full'>
-        <div className='pb-4'>
-          <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
-          <p className='py-6'>Check out some of my works here:</p>
+    <div name="Portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-full pb-12'>
+      <div className='max-w-screen-lg p-2 md:pt-2 sm:pt-1  md:mx-auto mx-0 sm:mt-0 flex flex-col justify-center w-full h-full'>
+        <div className='pb-4 pl-9'>
+          <p className='text-4xl font-bold inline border-b-4 border-gray-500'>My Works</p>
+          <p className='py-6 font-head text-xl font-semibold'>Check out some of my works here:</p>
         </div>
 
         <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-5 md:gap-10 mb-10 px-5 pb-4 md:px-10 sm:px-0 '>

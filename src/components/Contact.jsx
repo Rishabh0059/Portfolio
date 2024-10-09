@@ -1,13 +1,20 @@
 /* eslint-disable react/no-unescaped-entities */
 
 
+
 const Contact = () => {
   return (
-    <div name="Contact" className="w-full h-full bg-gradient-to-b from-black to-gray-800 p-4 text-white">
-      <div className="flex flex-col p-4 justify-center max-w-screen-lg md:mx-auto mt-12 h-full">
+    <div name="Contact" className="w-full h-full bg-gradient-to-b from-black pt-12 pl-8 to-gray-800 p-4 text-white">
+      <div className="flex flex-col p-4 justify-center max-w-screen-lg md:mx-auto mt-12 pl-8 h-full">
         <div className="md:pb-8 pb-4 mt-5">
-          <p className="text-3xl md:text-4xl  font-bold inline border-b-4 border-gray-500">Contact</p>
-          <p className="md:py-6 py-3">Submit the form below to get in touch with me</p>
+          <p className="text-3xl md:text-4xl font-bold inline border-b-4 border-gray-500">Contact</p>
+          <div className="pt-5">
+          
+          <p className="font-head font-semibold">Email : rishabh1259@gmail.com</p>
+          <p className="font-head font-semibold">Phone : 9661590417 </p>
+          <p className="font-head font-semibold">Adress : Kumaraswamy Layout,Bengaluru,Karnataka , 560078</p>
+          <p className="md:py-6 py-3 text-xl font-semibold underline">Submit the form below to get in touch with me</p>
+          </div>
         </div>
 
         <div className="flex justify-center items-center">

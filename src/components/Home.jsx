@@ -1,6 +1,6 @@
 
 /* eslint-disable react/no-unescaped-entities */
-
+import { FaArrowRight } from "react-icons/fa6";
 import heroImage2 from "../assets/heroImage2.jpeg";
 
 const Home = () => {
@@ -14,8 +14,12 @@ const Home = () => {
           
           <p className="text-gray-500 font-medium">Recently our team cleared the internal round of Smart India Hackathon(SIH) 2024.</p>
           <div>
-            
+            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"><a href="https://drive.google.com/file/d/1OSzYXkgLUAbmT0zfKgVQHRou7ZYjYwRq/view?usp=sharing">Resume</a>
+              <span className="group-hover:rotate-90 duration-300 px-2" ><FaArrowRight /></span>
+            </button>
           </div>
+
+          
         </div>
         <div>
           <img src={heroImage2} className="md:mx-auto w-2/3 h-2/3 md:w-3/4 md:h-4/5  sm:py-12"></img>

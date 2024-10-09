@@ -42,19 +42,19 @@ const SocialLinks = () => {
         Resume <FcViewDetails size={30} />
         </>
       ),
-      href:"../assets/portfolio/resume.pdf",
+      href:"https://drive.google.com/file/d/1OSzYXkgLUAbmT0zfKgVQHRou7ZYjYwRq/view?usp=sharing",
       style:"rounded-br-md",
-      download:true,
+      
     }
     
   ];
   return (
     <div className="lg:flex hidden flex-col top-[35%] left-0 fixed">
       <ul>
-       {Links.map(({id,child,href,style,download})=>(
+       {Links.map(({id,child,href,style})=>(
        <li key={id} className={"flex justify-between items-center w-40 h-14 px-4 ml-[-100px]  hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" + "" + style}>
         <a href={href} className="flex justify-between items-center w-full text-white"
-        download={download} target="_blank" rel="noreferrer"
+        
         >{child}</a>
                 </li>
        ))}

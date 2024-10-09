@@ -8,7 +8,8 @@ export default {
     extend: {},
     fontFamily:{
       signature:['Great Vibes'],
-      head:['Quicksand']
+      head:['Quicksand'],
+      about:['Nunito']
     }
   },
   plugins: [],

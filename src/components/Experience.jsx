@@ -6,7 +6,7 @@ import reactImage from '../assets/react.png'
 import tailwind from '../assets/tailwind.png'
 import redux from '../assets/redux.png'
 import wordpress from '../assets/wordpress.png'
-import jquery from '../assets/jjquery.png'
+// import jquery from '../assets/jjquery.png'
 import node from '../assets/node.png'
 import bootstrap from '../assets/Bootstrap.png'
 
@@ -55,13 +55,13 @@ const Experience = () => {
       title:'Bootstrap',
       style:'shadow-violet-500'
     },
-    {
-      id:8,
-      src:jquery,
-      title:'jQuery',
-      size:'40px',
-      style:'shadow-blue-500'
-    },
+    // {
+    //   id:8,
+    //   src:jquery,
+    //   title:'jQuery',
+    //   size:'40px',
+    //   style:'shadow-blue-500'
+    // },
    
     {
       id:9,
@@ -76,7 +76,7 @@ const Experience = () => {
       style:'shadow-gray-400'
     },
     {
-      id:1,
+      id:11,
       src:node,
       title:'NodeJs',
       style:'shadow-green-600'
@@ -85,10 +85,10 @@ const Experience = () => {
 
   return (
     <div name='Experience' className='bg-gradient-to-b pt-16 from-gray-800 to-black w-full h-screen'>
-      <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
-        <div className='pl-5'>
-          <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 sm:py-3 inline'>Experience</p>
-          <p className='py-5 font-head text-xl font-semibold'>These are the technologies i have worked with</p>
+      <div className='max-w-screen-lg mx-auto md:p-4 flex flex-col justify-center w-full h-full text-white'>
+        <div className='pl-5 '>
+          <p className='text-4xl font-bold border-b-4 sm:border-b-2 border-gray-500 md:p-2 sm:py-3 inline'>Experience</p>
+          <p className='md:py-5 sm:py-3 font-head md:text-xl font-semibold'>These are the technologies i have worked with</p>
         </div>
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 md:gap-8 gap-5 text-center md:py-8 py-4 md:px-12 px-10 sm:px-0'>

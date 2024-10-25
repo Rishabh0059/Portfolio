@@ -14,7 +14,7 @@ const Home = () => {
           
           <p className="text-gray-500 font-medium">Recently our team cleared the internal round of Smart India Hackathon(SIH) 2024.</p>
           <div>
-            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"><a href="https://drive.google.com/file/d/17UIjHCTCuP2HUn7XewKolEiFJQ54-VOv/view?usp=sharing" target="_blank" rel="noopner noreferrer">Resume</a>
+            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"><a href="https://drive.google.com/file/d/10GaBSZq8D0eeGaULZc9JhwH5IP0CCD8A/view?usp=sharing" target="_blank" rel="noopner noreferrer">Resume</a>
               <span className="group-hover:rotate-90 duration-300 px-2" ><FaArrowRight /></span>
             </button>
           </div>

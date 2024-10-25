@@ -8,7 +8,7 @@ const About = () => {
           <p className="text-4xl font-bold inline-border-b-4 border-gray-500">About</p>
         </div>
         <p className="md:text-xl sm:text-lg font-about mt-15">My name is Rishabh Kumar . I am a Frontend Developer currently pursing Computer Science & Engineering degree from Dayananda Sagar College of Engineering,Bengaluru.
-          With a strong 8.9 SGPA, I am proficient in languages like Java,C and Javascript.I also have a good hold on the frameworks like ReactJs and TailwindCss.I have worked on a large number of projects which are mentioned in Portfolio section of the website.
+          With a strong 8.72 CGPA, I am proficient in languages like Java,C and Javascript.I also have a good hold on the frameworks like ReactJs and TailwindCss.I have worked on a large number of projects which are mentioned in Portfolio section of the website.
         </p>
         <br></br>
 

@@ -1,68 +1,56 @@
 import edusity from "../assets/portfolio/edusity.png"
-// import quiz from "../assets/portfolio/quiz.png"
-import socialmedia from "../assets/portfolio/socialmedia.png"
-import todo from '../assets/portfolio/todo.png'
-import currency from '../assets/portfolio/currency.png'
-import mortage from '../assets/portfolio/mortage.png'
 import heritage from '../assets/portfolio/heritage.jpeg'
-
+import chat from "../assets/portfolio/chat-app.png"
+import blog from "../assets/portfolio/blog-app.png"
 
 const Portfolio = () => {
   const links=[
     {
       id:1,
-      src:heritage,
-      title:'Indian Tourism & Heritage',
-      demo:"https://rishabh0059.github.io/tourism-new/",
-      code:"https://github.com/Rishabh0059/tourism-new",
+      src:chat,
+      title:'Real-Time Chat Application',
+      demo:"https://fullstack-chat-app-qqx0.onrender.com/",
+      code:"https://github.com/Rishabh0059/fullstack-chat-app",
     },
     {
       id:2,
-      title:'University Website',
-      src:edusity,
-      demo:"https://rishabh0059.github.io/Edusity/",
-      code:"https://github.com/Rishabh0059/Edusity",
+      title:'Blog Application (PERN Stack)',
+      src:blog,
+      code:"https://github.com/Rishabh0059/blog",
     },
     // {
+    //   id:3,
+    //   title:'Social Media Website',
+    //   src:socialmedia,
+    //   demo:"https://rishabh0059.github.io/SocialMedia/",
+    //   code:"https://github.com/Rishabh0059/SocialMedia",
+    // },
+    // {
     //   id:4,
-    //   title:'Quiz App',
-    //   src:quiz,
-    //   demo:"https://rishabh0059.github.io/QuizApp/",
-    //   code:"https://github.com/Rishabh0059/QuizApp",
+    //   src:todo,
+    //   title:'Email Phishing Awareness System (MERN)',
+    //   code:"https://github.com/Rishabh0059/ToDo-App",
     // },
     {
-      id:3,
-      title:'Social Media Website',
-      src:socialmedia,
-      demo:"https://rishabh0059.github.io/SocialMedia/",
-      code:"https://github.com/Rishabh0059/SocialMedia",
-    },
-    {
-      id:4,
-      src:todo,
-      title:'To Do App',
-      demo:"https://rishabh0059.github.io/ToDo-App/",
-      code:"https://github.com/Rishabh0059/ToDo-App",
-    },
-    {
       id:5,
-      src:currency,
-      title:'Currency Converter',
-      demo:"https://rishabh0059.github.io/Currency-Converter/",
-      code:"https://github.com/Rishabh0059/Currency-Converter",
+      src:edusity,
+      title:'Edustiy-University Website',
+      demo:"https://rishabh0059.github.io/Edusity/",
+      code:"https://github.com/Rishabh0059/Edusity"
     },
     {
       id:6,
-      src:mortage,
-      title:'Animated Login Form',
-      demo:"https://rishabh0059.github.io/login-animation/",
-      code:"https://github.com/Rishabh0059/login-animation"
+      src:heritage,
+      title:'Tourism Explorer',
+      demo:"https://rishabh0059.github.io/tourism-new/",
+      code:"https://github.com/Rishabh0059/tourism-new",
     },
+    
     
    
   ]
   return (
-    <div name="Portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white  md:h-full pb-12 '>
+    <div name="Projects" className='bg-gradient-to-b from-slate-800 to-slate-900 w-full text-white  md:h-full pb-12 '>
       <div className='md:max-w-screen-lg p-2 md:pt-2 sm:pt-1  md:mx-auto mx-0 sm:mt-0 flex flex-col justify-center w-full h-full'>
         <div className='md:pb-4 pl-9'>
           <p className='text-4xl font-bold inline border-b-4 border-gray-500'>My Works</p>

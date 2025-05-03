@@ -8,7 +8,7 @@ const Home = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNum, setLoopNum] = useState(0);
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ["I'm a FullStack Developer"];
+  const toRotate = ["I'm a FullStack Developer & DSA Enthusiast"];
   const period = 2000;
 
   useEffect(() => {

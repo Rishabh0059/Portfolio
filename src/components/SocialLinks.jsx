@@ -50,7 +50,7 @@ const SocialLinks = () => {
           Resume <FcViewDetails size={30} />
         </>
       ),
-      href:"https://drive.google.com/file/d/10GaBSZq8D0eeGaULZc9JhwH5IP0CCD8A/view?usp=sharing",
+      href:"https://drive.google.com/file/d/1s_b7GGvcUHA9TmSzFT481oNnxrviEs-N/view?usp=sharing",
       style:"rounded-br-md",
       
     }

@@ -12,6 +12,7 @@ import express from "../assets/express.png"
 import mongo from "../assets/mongodb.png"
 import postgres from "../assets/postgres.png"
 import postman from "../assets/postman.png"
+import socket from "../assets/socket.png"
 
 const Experience = () => {
   const frontendSkills = [
@@ -27,7 +28,8 @@ const Experience = () => {
 
   const backendSkills = [
     { id: 1, src: node, title: 'Node.js', style: 'shadow-green-600' },
-    { id: 2, src: express, title: 'Express.js', style: 'shadow-gray-600' }
+    { id: 2, src: express, title: 'Express.js', style: 'shadow-gray-600' },
+    { id: 3, src: socket, title: 'Socket.IO', style: 'shadow-black-600' }
   ];
 
   const databaseSkills = [
@@ -45,7 +47,7 @@ const Experience = () => {
       <div className='max-w-screen-lg mx-auto p-8 flex flex-col justify-center w-full h-full text-white'>
         <div className='mb-12'>
           <p className='text-4xl font-bold border-b-4 border-gray-500 inline'>Technical Skills</p>
-          <p className='py-4 font-head text-xl font-semibold'>These are the technologies I have worked with</p>
+          <p className='py-4 font-head text-xl font-semibold'>These are the technologies I have worked with:</p>
         </div>
 
         <div className='space-y-12'>

@@ -50,6 +50,7 @@ const About = () => {
                   <p className="text-xl font-semibold text-cyan-500">Dayananda Sagar College of Engineering</p>
                   <p className="text-gray-300 mt-2">B.Tech in Computer Science & Engineering</p>
                   <p className="text-gray-400">2021 - Present</p>
+                  <p className="text-gray-300 mt-2">CGPA: 8.47</p>
                 </div>
               </div>
             </div>
@@ -77,28 +78,6 @@ const About = () => {
                     <h4 className="text-xl font-semibold text-cyan-500">C</h4>
                     <p className="text-gray-300">Advanced</p>
                   </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Projects Section */}
-            <div className="bg-gray-800 p-8 rounded-lg shadow-lg hover:shadow-cyan-500/50 transition-all duration-300">
-              <div className="flex items-center gap-4 mb-6">
-                <FaCode className="text-4xl text-cyan-500" />
-                <h3 className="text-2xl font-bold text-cyan-500">Projects</h3>
-              </div>
-              <div className="space-y-6">
-                <div className="border-l-4 border-cyan-500 pl-4">
-                  <h4 className="text-xl font-semibold text-cyan-500">Real-Time Chat App</h4>
-                  <p className="text-gray-300 mt-2">Built with MERN stack, featuring live messaging and JWT authentication</p>
-                </div>
-                <div className="border-l-4 border-cyan-500 pl-4">
-                  <h4 className="text-xl font-semibold text-cyan-500">Edusity</h4>
-                  <p className="text-gray-300 mt-2">Modern university website using React and Tailwind CSS</p>
-                </div>
-                <div className="border-l-4 border-cyan-500 pl-4">
-                  <h4 className="text-xl font-semibold text-cyan-500">Email Phishing Awareness System</h4>
-                  <p className="text-gray-300 mt-2">Interactive platform for cybersecurity training and awareness</p>
                 </div>
               </div>
             </div>

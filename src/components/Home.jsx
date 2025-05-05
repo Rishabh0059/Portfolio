@@ -50,7 +50,7 @@ const Home = () => {
           <p className="text-gray-500 py-4 font-medium max-w-md">Hi, I'm Rishabh Kumar, a passionate full-stack developer currently pursuing Computer Science & Engineering at Dayananda Sagar College of Engineering, Bengaluru.</p>
           
           <div className="space-y-3 mb-8">
-            <p className="text-gray-300 font-medium">🚀 <span className="text-cyan-500">Expertise:</span> MERN & PERN Stack Development</p>
+            <p className="text-gray-300 font-medium">🚀 <span className="text-cyan-500">Expertise:</span> MERN & PERN Stack Development | DSA </p>
             <p className="text-gray-300 font-medium">💻 <span className="text-cyan-500">Projects:</span> Real-time Chat App, Edusity, Email Phishing Awareness System</p>
             <p className="text-gray-300 font-medium">🎯 <span className="text-cyan-500">Passion:</span> Building scalable web applications & solving DSA problems</p>
           </div>

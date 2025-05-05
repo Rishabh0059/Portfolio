@@ -2,6 +2,8 @@ import edusity from "../assets/portfolio/edusity.png"
 import heritage from '../assets/portfolio/heritage.jpeg'
 import chat from "../assets/portfolio/chat-app.png"
 import blog from "../assets/portfolio/blog-app.png"
+import quiz from "../assets/portfolio/quiz.png"
+import login from "../assets/portfolio/login.png"
 
 const Portfolio = () => {
   const links=[
@@ -44,6 +46,20 @@ const Portfolio = () => {
       title:'Tourism Explorer',
       demo:"https://rishabh0059.github.io/tourism-new/",
       code:"https://github.com/Rishabh0059/tourism-new",
+    },
+    {
+      id:7,
+      src:quiz,
+      title:'Quiz Application',
+      demo:"https://rishabh0059.github.io/QuizApp/",
+      code:"https://github.com/Rishabh0059/QuizApp",
+    },
+    {
+      id:8,
+      src:login,
+      title:'Animated Login Page',
+      demo:"https://rishabh0059.github.io/login-animation/",
+      code:"https://github.com/Rishabh0059/login-animation",
     },
     
     

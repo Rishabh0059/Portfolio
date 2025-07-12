@@ -47,7 +47,7 @@ const Experience = () => {
       <div className='max-w-screen-lg mx-auto p-8 flex flex-col justify-center w-full h-full text-white'>
         <div className='mb-12'>
           <p className='text-4xl font-bold border-b-4 border-gray-500 inline'>Technical Skills</p>
-          <p className='py-4 font-head text-xl font-semibold'>These are the technologies I have worked with:</p>
+          <p className='py-4 font-head text-xl font-semibold'>Skilled in a diverse set of technologies across full-stack development, databases, and modern tools</p>
         </div>
 
         <div className='space-y-12'>

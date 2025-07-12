@@ -57,7 +57,7 @@ const Home = () => {
           
           <div>
             <button className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
-              <a href="https://drive.google.com/file/d/1d-E_0iC7nyWdm53PBmCsApqSfrC_bCA-/view?usp=sharing" target="_blank" rel="noopner noreferrer">Resume</a>
+              <a href="https://drive.google.com/file/d/1FrNXg7gj_t4E_FNIEE6MCzazUxbTt24m/view?usp=sharing" target="_blank" rel="noopner noreferrer">Resume</a>
               <span className="group-hover:rotate-90 duration-300 px-2" ><FaArrowRight /></span>
             </button>
           </div>
